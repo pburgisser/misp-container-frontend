@@ -1,4 +1,4 @@
-FROM ghcr.io/pburgisser/misp-container-base:latest
+FROM ghcr.io/pburgisser/misp-container-base:misp-v2.4.167
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends nginx && \
